@@ -224,6 +224,7 @@ header {
     .logo {
         margin: auto 15px;
         color: #fff;
+        font-size: 20px;
     }
     .bottom-nav .nav-menu {
         background: grey;
