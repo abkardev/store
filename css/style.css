@@ -319,6 +319,11 @@ header {
         justify-content: space-between;
         background: #000;
         height: 7vh;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        position: fixed;
+        width: 100%;
     }
     .burger {
         display: block;
@@ -327,16 +332,19 @@ header {
     .logo {
         margin: auto 15px;
         color: #fff;
+        font-size:20px;
     }
     .bottom-nav .nav-menu {
         background: grey;
         position: fixed;
-        top: 2%;
+        top: 2.5%;
         right: -30px;
         border: none;
         width: 100%;
         display: none;
         transition: all ease .5s;
+        z-index: 10;
+
     }
     .nav-menu .nav-link {
         display: block;
