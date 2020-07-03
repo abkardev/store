@@ -205,7 +205,10 @@ header {
 /*=====Media Query===*/
 
 @media (max-width:850px) {
-     .bottom-nav {
+    .women {
+        margin-top: 40px;
+    } 
+    .bottom-nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
