@@ -313,6 +313,9 @@ header {
 /*=====Media Query===*/
 
 @media (max-width:850px) {
+    .home {
+        margin-top: 40px;
+    }
     .bottom-nav {
         display: flex;
         flex-direction: row;
